@@ -1,0 +1,98 @@
+---
+description: Draft a Canadian regulatory notice or compliance document
+argument-hint: [notice type and key facts — e.g. "PIPEDA breach notification, 500 users affected, email database exposed"]
+---
+
+Draft the regulatory notice or compliance document described by the user: $ARGUMENTS
+
+## Supported Notice Types
+
+Determine which notice type is being requested and follow the corresponding template:
+
+---
+
+### A. Privacy Breach Notification (PIPEDA)
+
+Produce two documents:
+
+**1. OPC Breach Report (to the Office of the Privacy Commissioner)**
+Structure:
+- Organization name and contact details
+- Date breach was discovered / Date breach occurred (if known)
+- Description of the breach (what happened, how it occurred)
+- Type(s) of personal information involved
+- Number of individuals affected (or estimated range)
+- Provinces/territories of affected individuals
+- Steps taken to contain the breach
+- Steps taken to reduce risk of harm to affected individuals
+- Whether affected individuals have been notified (yes/no/planned)
+- Contact name and information
+
+**2. Individual Notification Letter**
+Use plain language. Include:
+- What happened (clear, non-technical description)
+- What personal information was involved
+- What the organization is doing about it
+- What the individual can do to protect themselves
+- Contact information for questions
+- Offer of credit monitoring or other remediation if applicable
+
+---
+
+### B. FINTRAC Suspicious Transaction Report (STR) — Internal Summary
+
+Draft an internal STR documentation memo (not the FINTRAC form itself, which must be submitted electronically via FINTRAC's portal). Include:
+- Client/subject information (name, account, identification details)
+- Transaction(s) in question (date, amount, type)
+- Description of suspicious activity
+- Red flags identified (reference FINTRAC red flag guidance)
+- Basis for "reasonable grounds to suspect" money laundering or terrorist financing
+- Decision: STR filed / not filed, and rationale
+- Date reviewed, compliance officer sign-off
+
+Note to user: The actual STR must be filed through the FINTRAC portal at fintrac-canafe.gc.ca. This memo serves as your internal record.
+
+---
+
+### C. Workplace Incident Report (OH&S)
+
+Draft a workplace incident report suitable for submission to the relevant provincial regulator. Include:
+- Employer and worksite information
+- Date, time, and location of incident
+- Description of what happened (factual narrative, no blame language)
+- Nature and extent of injuries or damage
+- Workers involved and their roles
+- Witnesses
+- Immediate actions taken (first aid, scene preservation, notifications made)
+- Preliminary cause assessment
+- Corrective actions initiated
+
+Tailor to jurisdiction (Ontario Ministry of Labour, WorkSafeBC, or Alberta OHS) based on information provided.
+
+---
+
+### D. ESA-Compliant Termination Letter
+
+Draft a termination letter that meets the requirements of the relevant provincial Employment Standards Act. Include:
+- Employee name, position, start date
+- Effective date of termination
+- Whether termination is with or without cause (if without cause, do not state reasons)
+- Statutory notice entitlement (calculate based on service length and jurisdiction)
+- Whether notice is being worked or paid in lieu
+- Severance pay (if applicable under Ontario ESA s.64)
+- Benefits continuation period
+- Return of company property instructions
+- Reference to ROE (Record of Employment)
+- COBRA/benefits continuation if applicable
+
+**If termination is for cause:** Remind the user that this is a high-risk area and the letter should be reviewed by legal counsel before delivery. Do not state the reasons for cause dismissal in the letter itself unless directed by counsel.
+
+---
+
+## General Drafting Instructions
+
+- Use professional, clear, and neutral language throughout.
+- Do not include any admissions of liability or fault.
+- Flag any missing information needed to complete the draft with [INSERT: ___].
+- After the draft, include a brief "Next Steps" section noting any regulatory deadlines (e.g., OPC notification "as soon as feasible"; FINTRAC STR within 30 days of detection).
+- Remind the user this is a starting draft and should be reviewed by qualified legal counsel before sending.
