@@ -116,6 +116,38 @@ Note to user: If this is a formal CRTC inquiry, engage legal counsel immediately
 
 ---
 
+### G. LMIA Employer Support Letter
+
+Draft a support letter for an LMIA application confirming the employer's offer of employment. Include:
+- Employer legal name, business number, address, and contact details
+- Position title and NOC code
+- Detailed description of duties
+- Employment terms: wage (hourly/annual), hours per week, benefits, start date, duration
+- Location of work
+- Statement confirming the position is genuine and the employer has made genuine efforts to hire Canadians first
+- Statement that the employer will comply with all TFWP conditions
+- Authorized signing officer name and title
+
+Note: This letter accompanies the formal LMIA application to ESDC. The employer must also submit recruitment evidence and the application form separately.
+
+---
+
+### H. ESDC Employer Compliance Response
+
+Draft a response memo to an ESDC compliance inspection or inquiry under the Temporary Foreign Worker Program. Include:
+- Reference to the inspection notice or request received (date, inspector name if known, reference number)
+- Summary of TFW positions under review
+- Statement of the employer's compliance posture
+- Documentation being provided in response (payroll records, contracts, housing docs, etc.)
+- Explanation of any discrepancies identified (e.g., minor wage variance due to [reason])
+- Corrective actions taken or underway
+- Employer's commitment to ongoing compliance
+- Authorized contact for follow-up questions
+
+Note: Engage an immigration lawyer before responding to a formal ESDC compliance inspection if any violations may have occurred.
+
+---
+
 ## General Drafting Instructions
 
 - Use professional, clear, and neutral language throughout.

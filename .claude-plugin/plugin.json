@@ -1,9 +1,9 @@
 {
   "name": "canadian-regulatory-compliance",
-  "version": "0.2.0",
-  "description": "Canadian regulatory compliance assistant covering Privacy (PIPEDA/Bill C-27), Employment & Labour (ESA/CHRA), Financial & Securities (FINTRAC/OSC), Health & Safety (WHMIS/CCOHS), CASL, and Tax Compliance across federal and provincial jurisdictions.",
+  "version": "0.3.0",
+  "description": "Canadian regulatory compliance assistant covering Privacy (PIPEDA/Bill C-27), Employment & Labour (ESA/CHRA), Financial & Securities (FINTRAC/OSC), Health & Safety (WHMIS/CCOHS), CASL, Tax Compliance, Immigration & Work Permits, Environmental Compliance (CEPA/carbon pricing), and Corporate Governance (CBCA) across federal and provincial jurisdictions.",
   "author": {
     "name": "Srivatsa Kasagar"
   },
-  "keywords": ["compliance", "canada", "pipeda", "fintrac", "esa", "whmis", "casl", "gst", "hst", "tax", "regulatory", "privacy", "employment", "securities"]
+  "keywords": ["compliance", "canada", "pipeda", "fintrac", "esa", "whmis", "casl", "gst", "hst", "tax", "lmia", "immigration", "cepa", "carbon", "cbca", "corporate-governance", "regulatory"]
 }
