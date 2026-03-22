@@ -2,9 +2,9 @@
 
 > A plain-language compliance assistant built for Canadian business and operations teams — no legal background required.
 
-Canadian regulatory law is complex, spans multiple jurisdictions, and changes often. This plugin gives your team instant access to practical guidance across **nine regulatory areas**, helping you understand your obligations, review documents, generate checklists, draft notices, and get quick answers — all without having to wade through dense legislation.
+Canadian regulatory law is complex, spans multiple jurisdictions, and changes often. This plugin gives your team instant access to practical guidance across **eleven regulatory areas**, helping you understand your obligations, review documents, generate checklists, draft notices, and get quick answers — all without having to wade through dense legislation.
 
-**Who it's for:** Business owners, operations managers, HR leads, finance teams, and anyone who needs to make informed compliance decisions day-to-day.
+**Who it's for:** Business owners, operations managers, HR leads, finance teams, banking professionals, and anyone who needs to make informed compliance decisions day-to-day.
 
 **Jurisdictions covered:** Federal · Ontario · British Columbia · Alberta · Quebec
 
@@ -30,6 +30,7 @@ Upload or describe any document and get a structured compliance audit across all
 /compliance-review privacy-policy.pdf
 /compliance-review our employee handbook
 /compliance-review supplier contract with data sharing clause
+/compliance-review credit card agreement
 ```
 
 ---
@@ -37,13 +38,14 @@ Upload or describe any document and get a structured compliance audit across all
 ### `/compliance-checklist` — Generate a Checklist
 Describe an activity, process, or regulatory area and get a step-by-step checklist with specific regulatory citations for each item.
 
-**Output:** A ready-to-use checklist your team can work through, with a "Quick Start Priorities" section highlighting the 3 most important items.
+**Output:** A ready-to-use checklist with a "Quick Start Priorities" section highlighting the 3 most important items.
 
 ```
 /compliance-checklist hiring a foreign worker in Ontario
 /compliance-checklist setting up payroll for the first time
 /compliance-checklist opening a new office in BC
-/compliance-checklist FINTRAC AML compliance program
+/compliance-checklist OSFI B-13 technology risk compliance
+/compliance-checklist bank complaint handling process
 ```
 
 ---
@@ -91,43 +93,53 @@ Ask any Canadian compliance question in plain English and get a direct, practica
 /compliance-qa Can we hire a US citizen without an LMIA?
 /compliance-qa What is the minimum notice period for terminating a 4-year employee in Alberta?
 /compliance-qa Are our marketing emails CASL-compliant if we bought the list?
-/compliance-qa What records must be in our corporate minute book?
 /compliance-qa What carbon pricing system applies to our Ontario factory?
+/compliance-qa What is the CET1 minimum ratio under OSFI?
+/compliance-qa Can a bank refuse to open a basic account for someone with no credit history?
+/compliance-qa How long does a bank have to respond to a customer complaint?
 ```
 
 ---
 
 ## Skills (Auto-Loaded Knowledge)
 
-These skills load automatically when you discuss a relevant topic in conversation — you don't need to invoke them manually. Each one contains detailed regulatory knowledge plus a deep-reference file for complex questions.
+These skills load automatically when you discuss a relevant topic — you don't need to invoke them manually. Each one contains detailed regulatory knowledge plus a deep-reference file for complex questions.
 
 | Skill | Covers | Key Topics |
 |-------|--------|-----------|
-| 🔒 **Privacy** | PIPEDA · Bill C-27 · Provincial privacy laws | Data breaches, consent, privacy policies, PIAs, cross-border transfers |
-| 👷 **Employment & Labour** | ESA · Canada Labour Code · CHRA | Termination, notice periods, severance, overtime, leaves, human rights, pay equity |
+| 🔒 **Privacy** | PIPEDA · Bill C-27 · Provincial laws | Data breaches, consent, privacy policies, PIAs, cross-border transfers |
+| 👷 **Employment & Labour** | ESA · Canada Labour Code · CHRA | Termination, notice, severance, overtime, leaves, human rights, pay equity |
 | 💰 **Financial & Securities** | FINTRAC · OSC · CIRO · PCMLTFA | AML/ATF, KYC, PEP screening, STRs, LCTRs, securities registration |
 | 🦺 **Health & Safety** | WHMIS 2015 · OHSA · CCOHS | Hazardous materials, SDS, workplace incidents, right to refuse, JHSC |
 | 📧 **CASL** | Canada's Anti-Spam Legislation | CEMs, express/implied consent, unsubscribe rules, CRTC enforcement |
-| 🧾 **Tax** | CRA · GST/HST · Payroll · Corporate Tax | Sales tax registration, CPP/EI remittances, T4/T4A, SR&ED credits |
+| 🧾 **Tax** | CRA · GST/HST · Payroll · Corporate Tax | Sales tax, CPP/EI remittances, T4/T4A, SR&ED credits, contractor vs. employee |
 | ✈️ **Immigration** | IRCC · ESDC · TFWP · IMP | LMIA, work permits, CUSMA, Express Entry, PNPs, employer compliance |
 | 🌿 **Environmental** | CEPA · IAA · Carbon Pricing | OBPS, Alberta TIER, BC carbon tax, hazardous waste, spill reporting, EA triggers |
 | 🏢 **Corporate Governance** | CBCA · OBCA · BCBCA · ABCA | Director duties, ISC register, minute book, annual filings, shareholder rights |
+| 🏦 **OSFI Prudential** | Basel III/IV · OSFI Guidelines | Capital ratios (CET1/Tier 1), liquidity (LCR/NSFR), ICAAP, B-20, B-13, stress testing |
+| 🛡️ **FCAC Consumer Protection** | Bank Act · Cost of Borrowing Regs | Complaint handling, credit card disclosure, mortgage prepayment, NSF fees, basic banking |
 
 ---
 
 ## Typical Use Cases
 
+**Banking & Financial Institutions**
+- Understand capital adequacy ratios and OSFI's CET1 minimums
+- Prepare for an OSFI technology risk (B-13) examination
+- Review a credit card agreement for FCAC disclosure compliance
+- Check complaint handling timelines and ECB referral obligations
+- Assess NVCC requirements for new capital instruments
+
 **HR & People Teams**
 - Generate a province-specific onboarding checklist for new hires
 - Draft a legally compliant termination letter
 - Understand leave entitlements before an employee goes on parental leave
-- Check whether a contractor arrangement might be misclassified
+- Understand employer obligations when hiring foreign workers
 
 **Finance & Accounting**
 - Understand GST/HST registration and filing obligations
 - Get a payroll remittance schedule and T4 deadline reminder
 - Explore SR&ED eligibility before engaging a consultant
-- Check director liability exposure for unpaid source deductions
 
 **Marketing Teams**
 - Review an email campaign for CASL compliance before sending
@@ -155,26 +167,28 @@ No setup required — the plugin is fully self-contained with no external connec
 ## Roadmap
 
 Planned additions for future versions:
-- 🛡️ Canadian Consumer Protection (Competition Act, provincial CPAs)
-- ♿ Accessibility (AODA, Accessible Canada Act)
-- 🌍 Indigenous Relations & Duty to Consult (UNDRIP / Bill C-15)
+- 🛒 **Canadian Consumer Protection** (Competition Act, misleading advertising, provincial CPAs)
+- ♿ **Accessibility** (AODA, Accessible Canada Act, WCAG 2.1)
+- 💳 **Retail Payments Activities Act (RPAA)** — New payment service provider regulations
 
 ---
 
 ## Disclaimer
 
-> This plugin provides general regulatory information for **educational purposes only**. It is not legal, tax, or immigration advice. Canadian laws are complex, jurisdiction-specific, and change frequently. Always consult a qualified lawyer, accountant, or regulated immigration consultant (RCIC) before making high-stakes compliance decisions — especially for terminations, breach notifications, LMIA applications, or regulatory filings.
+> This plugin provides general regulatory information for **educational purposes only**. It is not legal, tax, immigration, or financial advice. Canadian laws are complex, jurisdiction-specific, and change frequently. Always consult a qualified lawyer, accountant, regulated immigration consultant (RCIC), or financial professional before making high-stakes compliance decisions.
 
 ---
 
 ## Changelog
 
+**v0.4.0** — Added OSFI Prudential skill (Basel III/IV, CET1/Tier 1/Total Capital, LCR/NSFR, ICAAP, B-20 stress test, B-13 technology risk, recovery planning) and FCAC Consumer Protection skill (complaint handling, cost of borrowing disclosure, credit card rules, mortgage prepayment rights, NSF fees, basic banking)
+
 **v0.3.0** — Added Immigration, Environmental, and Corporate Governance skills; added LMIA and ESDC notice templates
 
-**v0.2.0** — Added CASL skill + `/casl-review` command; added Canadian Tax Compliance skill; added CASL notice templates
+**v0.2.0** — Added CASL skill + `/casl-review` command; added Canadian Tax Compliance skill
 
 **v0.1.0** — Initial release: Privacy, Employment & Labour, Financial & Securities, Health & Safety
 
 ---
 
-*Built by Srivatsa Kasagar · v0.3.0*
+*Built by Srivatsa Kasagar · v0.4.0*
