@@ -89,6 +89,33 @@ Draft a termination letter that meets the requirements of the relevant provincia
 
 ---
 
+### E. CASL Unsubscribe Confirmation
+
+Draft a confirmation message sent to a recipient who has submitted an unsubscribe request. Include:
+- Acknowledgement that the request was received
+- Confirmation that the recipient has been removed from the mailing list
+- The effective date (or confirmation it was processed within 10 business days)
+- Contact information if the recipient believes they are still receiving messages in error
+- Keep it brief, professional, and free of any promotional content
+
+---
+
+### F. CASL Violation Response (Internal / CRTC)
+
+Draft an internal memo documenting the organization's response to a CASL complaint or CRTC inquiry. Include:
+- Summary of the complaint or inquiry received (date, source, nature of allegation)
+- Messages and recipients at issue
+- Consent records reviewed and findings (was consent valid? expired? missing?)
+- Whether unsubscribe requests were processed within 10 business days
+- Root cause of the violation (if confirmed)
+- Corrective actions taken or planned
+- Whether voluntary undertaking to CRTC is being considered
+- Sign-off by compliance officer and legal counsel
+
+Note to user: If this is a formal CRTC inquiry, engage legal counsel immediately before responding to the CRTC directly.
+
+---
+
 ## General Drafting Instructions
 
 - Use professional, clear, and neutral language throughout.
