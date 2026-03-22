@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Canadian Regulatory Compliance — Claude Code Skill</title>
-  <meta name="description" content="A Claude Code skill covering 13 Canadian regulatory domains — Privacy, Employment, Financial, Health & Safety, CASL, Tax, Immigration, Environmental, Corporate Governance, Accessibility, Consumer Protection, and Indigenous Relations — across federal and provincial jurisdictions." />
+  <meta name="description" content="A Claude Code skill covering 13 Canadian regulatory domains — Privacy, Employment, Financial, Health & Safety, CASL, Tax, Immigration, Environmental, Corporate Governance, OSFI Prudential, FCAC Consumer Protection, Accessibility, and Indigenous Relations — across federal and provincial jurisdictions." />
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
@@ -117,7 +117,7 @@
     <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
       <div class="flex items-center gap-2">
         <span class="text-white font-semibold text-sm tracking-tight">Canadian Regulatory Compliance</span>
-        <span class="text-xs bg-white/10 text-slate-300 px-2 py-0.5 rounded-full font-mono">v0.2.0</span>
+        <span class="text-xs bg-white/10 text-slate-300 px-2 py-0.5 rounded-full font-mono">v0.4.0</span>
       </div>
       <div class="hidden md:flex items-center gap-8">
         <a href="#coverage" class="nav-link">Coverage</a>
@@ -134,6 +134,7 @@
       <div class="flex items-center justify-center gap-3 mb-6">
         <span class="badge">Claude Code Skill</span>
         <span class="badge">13 Regulatory Domains</span>
+        <span class="badge">v0.4.0</span>
       </div>
 
       <h1 class="text-5xl md:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
@@ -172,7 +173,7 @@
           <div class="text-slate-400 text-sm">Jurisdictions</div>
         </div>
         <div class="stat-card">
-          <div class="text-3xl font-bold text-white mb-1">40+</div>
+          <div class="text-3xl font-bold text-white mb-1">50+</div>
           <div class="text-slate-400 text-sm">Key Regulations</div>
         </div>
       </div>
@@ -354,6 +355,42 @@
                 <span class="command-tag">BCBCA</span>
                 <span class="command-tag">ISC</span>
                 <span class="command-tag">Beneficial Ownership</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- OSFI Prudential -->
+        <div class="card-hover bg-white border border-slate-200 rounded-2xl p-6 shadow-sm">
+          <div class="flex items-start gap-4">
+            <div class="skill-icon bg-indigo-50 text-indigo-600">&#127959;</div>
+            <div>
+              <h3 class="font-bold text-slate-900 text-lg mb-1">OSFI Prudential Regulation</h3>
+              <p class="text-slate-500 text-sm mb-3">Basel III/IV capital ratios (CET1, Tier 1, Total Capital), LCR/NSFR liquidity requirements, ICAAP, B-20 mortgage underwriting stress test, technology risk (B-10/B-13), and NVCC capital instruments. Recovery and resolution planning for federally regulated financial institutions.</p>
+              <div class="flex flex-wrap gap-1.5">
+                <span class="command-tag">Basel III/IV</span>
+                <span class="command-tag">ICAAP</span>
+                <span class="command-tag">B-20 Stress Test</span>
+                <span class="command-tag">LCR/NSFR</span>
+                <span class="command-tag">NVCC</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- FCAC Consumer Protection -->
+        <div class="card-hover bg-white border border-slate-200 rounded-2xl p-6 shadow-sm">
+          <div class="flex items-start gap-4">
+            <div class="skill-icon bg-cyan-50 text-cyan-600">&#128179;</div>
+            <div>
+              <h3 class="font-bold text-slate-900 text-lg mb-1">FCAC Consumer Protection</h3>
+              <p class="text-slate-500 text-sm mb-3">Bank Act consumer rights administered by FCAC: basic banking access, cheque hold limits, NSF fee rules, cost of borrowing disclosure, credit card protections, and mortgage prepayment (IRD). Three-tier complaint handling: bank → OBSI (independent review) → FCAC escalation.</p>
+              <div class="flex flex-wrap gap-1.5">
+                <span class="command-tag">FCAC</span>
+                <span class="command-tag">Bank Act</span>
+                <span class="command-tag">OBSI</span>
+                <span class="command-tag">Mortgage IRD</span>
+                <span class="command-tag">NSF Rules</span>
               </div>
             </div>
           </div>
@@ -669,12 +706,12 @@
     <div class="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
       <div class="text-center md:text-left">
         <div class="text-white font-semibold text-sm mb-1">Canadian Regulatory Compliance <span class="maple-leaf">&#9426;</span></div>
-        <div class="text-slate-400 text-xs">A Claude Code Skill by Srivatsa Kasagar &mdash; v0.2.0</div>
+        <div class="text-slate-400 text-xs">A Claude Code Skill by Srivatsa Kasagar &mdash; v0.4.0</div>
       </div>
       <div class="flex flex-wrap items-center justify-center gap-4 text-xs text-slate-400">
         <span>Privacy &bull; Employment &bull; Financial &bull; Health &amp; Safety</span>
         <span class="hidden md:inline">&bull;</span>
-        <span>CASL &bull; Tax &bull; Immigration &bull; Environmental &bull; Corporate &bull; Accessibility &bull; Consumer &bull; Indigenous</span>
+        <span>CASL &bull; Tax &bull; Immigration &bull; Environmental &bull; Corporate &bull; OSFI &bull; FCAC &bull; Accessibility &bull; Consumer &bull; Indigenous</span>
       </div>
       <div class="text-slate-500 text-xs text-center md:text-right">
         For informational purposes only.<br/>Not legal or tax advice.
