@@ -1,6 +1,6 @@
 # 🍁 Canadian Regulatory Compliance Plugin
 
-> A plain-language compliance assistant built for Canadian business and operations teams — no legal background required.
+> A Claude Code skill that answers Canadian compliance questions across 13 regulatory domains — privacy, employment, CASL, tax, and more.
 
 Canadian regulatory law is complex, spans multiple jurisdictions, and changes often. This plugin gives your team instant access to practical guidance across **eleven regulatory areas**, helping you understand your obligations, review documents, generate checklists, draft notices, and get quick answers — all without having to wade through dense legislation.
 
