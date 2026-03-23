@@ -606,8 +606,8 @@
     <div class="max-w-3xl mx-auto">
       <div class="text-center mb-12">
         <p class="section-label mb-3">Installation</p>
-        <h2 class="text-3xl md:text-4xl font-bold text-slate-900">Up and running in two steps</h2>
-        <p class="text-slate-500 mt-4 text-base">No API keys. No environment variables. No external services. Fully self-contained.</p>
+        <h2 class="text-3xl md:text-4xl font-bold text-slate-900">Up and running in two commands</h2>
+        <p class="text-slate-500 mt-4 text-base">No cloning. No API keys. No environment variables. Installs permanently in seconds.</p>
       </div>
 
       <!-- Step 1 -->
@@ -615,18 +615,18 @@
         <div class="flex items-center gap-3 mb-4">
           <div class="w-8 h-8 bg-red-600 text-white rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0">1</div>
           <div>
-            <h3 class="font-bold text-slate-900">Install — one-time terminal step</h3>
-            <p class="text-slate-500 text-sm mt-0.5">Clone the repository and load it as a plugin when launching Claude Code.</p>
+            <h3 class="font-bold text-slate-900">Add the marketplace &amp; install — one time</h3>
+            <p class="text-slate-500 text-sm mt-0.5">Register the plugin source and install it. Once done, it's available in every Claude Code session automatically.</p>
           </div>
         </div>
         <div class="code-block">
-          <span class="comment"># Clone the repository</span><br/>
-          git clone https://github.com/Srivatsa-Kasagar/canadian-regulatory-compliance.git<br/>
+          <span class="comment"># Register the marketplace</span><br/>
+          claude plugin marketplace add <span class="arg">Srivatsa-Kasagar/canadian-regulatory-compliance</span><br/>
           <br/>
-          <span class="comment"># Launch Claude Code with the plugin loaded</span><br/>
-          claude --plugin ./canadian-regulatory-compliance
+          <span class="comment"># Install the plugin permanently</span><br/>
+          claude plugin install <span class="arg">canadian-regulatory-compliance</span>
         </div>
-        <p class="text-slate-400 text-xs mt-3">Requires <a href="https://claude.ai/code" class="underline hover:text-slate-600">Claude Code CLI</a>. No API keys or environment variables needed — the plugin is fully self-contained.</p>
+        <p class="text-slate-400 text-xs mt-3">Requires <a href="https://claude.ai/code" class="underline hover:text-slate-600">Claude Code CLI</a>. No cloning, no flags, no aliases — the plugin loads automatically on every session.</p>
       </div>
 
       <!-- Step 2 -->

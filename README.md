@@ -156,7 +156,23 @@ These skills load automatically when you discuss a relevant topic — you don't 
 
 ## Getting Started
 
-No setup required — the plugin is fully self-contained with no external connections or API keys needed.
+**Step 1 — Add the marketplace & install (one time)**
+
+```bash
+# Register the marketplace
+claude plugin marketplace add Srivatsa-Kasagar/canadian-regulatory-compliance
+
+# Install the plugin permanently
+claude plugin install canadian-regulatory-compliance
+```
+
+**Step 2 — Launch normally**
+
+```bash
+claude
+```
+
+All commands and skills load automatically in every Claude Code session — no cloning, no flags, no aliases needed.
 
 **To ask a question:** Just start typing about a compliance topic and the relevant skill will load automatically.
 
